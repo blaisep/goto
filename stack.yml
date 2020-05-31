@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://i.do.controlplane.info
+functions:
+  goto:
+    lang: node10-express
+    handler: ./goto
+    image: registry.do.controlplane.info/goto:latest
+
