@@ -1,7 +1,7 @@
 version: 1.0
 provider:
   name: openfaas
-  gateway: https://ofc.do.controlplane.info
+  gateway: https://gateway.ofc.do.controlplane.info
 functions:
   goto:
     lang: node10-express
