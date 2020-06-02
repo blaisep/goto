@@ -6,5 +6,5 @@ functions:
   goto:
     lang: node12
     handler: ./goto
-    image: registry.digitalocean.com/do-very-good/goto:latest
+    image: registry.digitalocean.com/do-good-images/goto:latest
 
