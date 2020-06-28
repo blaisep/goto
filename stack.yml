@@ -4,7 +4,7 @@ provider:
   gateway: https://gateway.ofc.do.controlplane.info
 functions:
   goto:
-    lang: node12
+    lang: node10-express
     handler: ./goto
     image: registry.digitalocean.com/do-good-images/goto:latest
 
